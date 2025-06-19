@@ -12,7 +12,7 @@ These maps and tables show the percentage of adults aged 25-54 who are married. 
 
 **[PUMAS by % of adults aged 25-54 who are married](tables/puma_marriage_share_estimates.html)**
 
-**[Counties by % of adults aged 25-54 who are married](maps/county_marriage_share_estimates.html)**
+**[Counties by % of adults aged 25-54 who are married](tables/county_marriage_share_estimates.html)**
 
 
 ### Author:
