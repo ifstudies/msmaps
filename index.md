@@ -3,7 +3,7 @@
 These maps and tables show the percentage of adults aged 25-54 who are married. They are based on ACS5 2023 data from the US Census Bureau. PUMA region outlines were retrieved from IPUMS; other outlines came from the Census Bureau. 
 
 ## Maps
-
+px.histogram(gdf_pumas_and_data['Total population'])
 **[States by % of adults aged 25-54 who are married](maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
 
 **[MSAs by % of adults aged 25-54 who are married](maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married.html)**
@@ -16,7 +16,7 @@ These maps and tables show the percentage of adults aged 25-54 who are married. 
 
 **[Zip codes by % of adults aged 25-54 who are married](maps/Estimates_zip_codes_percentile_tiled_unfixed_pct_25_54_married.html)**
 
-**[VA Census tracts by % of adults aged 25-54 who are married](maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[Census tracts by % of adults aged 25-54 who are married](maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married.html)**
 
 ## Tables
 **[States by % of adults aged 25-54 who are married](tables/state_marriage_share_estimates.html)**
@@ -31,7 +31,7 @@ These maps and tables show the percentage of adults aged 25-54 who are married. 
 
 **[Zip codes by % of adults aged 25-54 who are married](tables/zip_marriage_share_estimates.html)**
 
-**[VA Census tracts by % of adults aged 25-54 who are married](tables/tract_marriage_share_estimates.html)**
+**[Census tracts by % of adults aged 25-54 who are married](tables/tract_marriage_share_estimates.html)**
 
 **[Nationwide % of adults aged 25-54 who are married](tables/us_marriage_share_estimates.html)**
 
