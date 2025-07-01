@@ -3,7 +3,7 @@
 These maps and tables show the percentage of adults aged 25-54 who are married. They are based on ACS5 2023 data from the US Census Bureau. PUMA region outlines were retrieved from IPUMS; other outlines came from the Census Bureau. 
 
 ## Maps
-px.histogram(gdf_pumas_and_data['Total population'])
+
 **[States by % of adults aged 25-54 who are married](maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
 
 **[MSAs by % of adults aged 25-54 who are married](maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married.html)**
