@@ -1,24 +1,47 @@
-# Marriage Share Visualizations
+# Marriage Desert and Share Visualizations
 
-These maps and tables show the percentage of adults aged 25-54 who are married. They are based on ACS5 2023 data from the US Census Bureau. PUMA region outlines were retrieved from IPUMS; other outlines came from the Census Bureau. 
+These maps and tables show the percentage of adults aged 25-54 who are married. 'Desert' maps show only regions in which fewer than one in three adults within this age range is married; 'share' maps show all regions. 
 
-## Maps
+These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA region outlines were retrieved from IPUMS; other outlines came from the Census Bureau. Only regions with at least 500 adults aged 25-54 are included.
 
-**[States by % of adults aged 25-54 who are married](maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
+## Marriage desert maps
 
-**[MSAs by % of adults aged 25-54 who are married](maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married.html)**
+*Note: some maps are empty, as none of the regions they would show met our 'marriage desert' threshold.)*
 
-**[PUMAS by % of adults aged 25-54 who are married](maps/Estimates_pumas_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[State-level marriage deserts](desert_maps/Estimates_states_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Counties by % of adults aged 25-54 who are married](maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[MSA-level marriage deserts](desert_maps/Estimates_msas_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Counties with at least 100K residents by % of adults aged 25-54 who are married](maps/Estimates_larger_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[PUMA-level marriage deserts](desert_maps/Estimates_pumas_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Zip codes by % of adults aged 25-54 who are married](maps/Estimates_zip_codes_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[County-level marriage deserts](desert_maps/Estimates_counties_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Census tracts by % of adults aged 25-54 who are married](maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married.html)**
+**[Marriage deserts among counties with at least 100K residents](desert_maps/Estimates_larger_counties_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
-## Tables
+**[Zip code-level marriage deserts ](desert_maps/Estimates_zip_codes_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+
+**[Census tract-level marriage deserts](desert_maps/Estimates_tracts_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+
+
+## Marriage share maps and tables
+
+### Maps
+
+**[States by % of adults aged 25-54 who are married](share_maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[MSAs by % of adults aged 25-54 who are married](share_maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[PUMAS by % of adults aged 25-54 who are married](share_maps/Estimates_pumas_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[Counties by % of adults aged 25-54 who are married](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[Counties with at least 100K residents by % of adults aged 25-54 who are married](share_maps/Estimates_larger_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[Zip codes by % of adults aged 25-54 who are married](share_maps/Estimates_zip_codes_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+**[Census tracts by % of adults aged 25-54 who are married](share_maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married.html)**
+
+### Tables
 **[States by % of adults aged 25-54 who are married](tables/state_marriage_share_estimates.html)**
 
 **[MSAs by % of adults aged 25-54 who are married](tables/msa_marriage_share_estimates.html)**
@@ -34,6 +57,7 @@ These maps and tables show the percentage of adults aged 25-54 who are married. 
 **[Census tracts by % of adults aged 25-54 who are married](tables/tract_marriage_share_estimates.html)**
 
 **[Nationwide % of adults aged 25-54 who are married](tables/us_marriage_share_estimates.html)**
+
 
 
 ### Author:
