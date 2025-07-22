@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>pydeck</title>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <script src='https://cdn.jsdelivr.net/npm/@deck.gl/jupyter-widget@~9.0.*/dist/index.js'></script>
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#deck-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#deck-container canvas {
+  z-index: 1;
+  background: none;
+}
+    </style>
+  </head>
+  <body>
+    <div id="deck-container">
+    </div>
+  </body>
+  <script>
+    const container = document.getElementById('deck-container');
+    const jsonInput = {
+  "initialViewState": {
+    "bearing": 0,
+    "latitude": 38,
+    "longitude": -98,
+    "maxZoom": 16,
+    "pitch": 35,
+    "zoom": 4
+  },
+  "layers": [
+    {
+      "@@type": "GeoJsonLayer",
+      "autoHighlight": true,
+      "data": {
+        "crs": {
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4269"
+          },
+          "type": "name"
+        },
+        "features": [],
+        "type": "FeatureCollection"
+      },
+      "extruded": true,
+      "filled": true,
+      "getElevation": "@@=properties.height",
+      "getFillColor": "@@=[properties.pct_25_54_married_percentile * 2.27 + 28.000000000000004, properties.pct_25_54_married_percentile * 1.61 + 22.0, properties.pct_25_54_married_percentile * 0.04 + 120.0]",
+      "id": "eb149e1e-9f82-4815-98bb-b2b153642b59",
+      "opacity": 0.8,
+      "pickable": true,
+      "stroked": false,
+      "wireframe": true
+    }
+  ],
+  "mapProvider": "carto",
+  "mapStyle": "https://tiles.openfreemap.org/styles/bright",
+  "views": [
+    {
+      "@@type": "MapView",
+      "controller": true
+    }
+  ]
+};
+    const tooltip = {'html': '<b>County:</b> {Name}<br><b>Residents aged 25-54:</b> {totalpop_25_54} <br><b>Percentage of residents aged 25-54 who are married:</b> {pct_25_54_married_for_label}<br><b>Percentile:</b> {pct_25_54_married_percentile_for_label}', 'style': {'color': 'white'}};
+    const customLibraries = null;
+    const configuration = null;
+
+    const deckInstance = createDeck({
+                  container,
+      jsonInput,
+      tooltip,
+      customLibraries,
+      configuration
+    });
+
+  </script>
+</html>
