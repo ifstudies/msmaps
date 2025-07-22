@@ -16,6 +16,8 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 ### 3D maps
 
+***Note: within these 3D maps, the volume of regions (i.e. their area times their height) reflects the number of residents within that region.***
+
 **[(California only) Census tracts by % of adults aged 25-54 who are married](share_maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
 
 **[(California only) Zip codes by % of adults aged 25-54 who are married](share_maps/Estimates_zips_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
@@ -33,8 +35,6 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 **[PUMAS by % of adults aged 25-54 who are married](share_maps/Estimates_pumas_percentile_tiled_unfixed_pct_25_54_married.html)**
 
 **[Counties by % of adults aged 25-54 who are married](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
-
-**[Experimental 3D variant of this county-level map in which county heights reflect the number of adults aged 25-54 in that area](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married_3D.html)**
 
 **[Counties with at least 100K residents by % of adults aged 25-54 who are married](share_maps/Estimates_larger_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
 
@@ -61,7 +61,7 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 ## Marriage desert maps
 
-*Note: some maps are empty, as none of the regions they would show met our 'marriage desert' threshold.)*
+***Note: some maps are empty, as none of the regions they would show met our 'marriage desert' threshold.)***
 
 **[State-level marriage deserts](desert_maps/Estimates_states_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
