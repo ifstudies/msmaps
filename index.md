@@ -35,6 +35,8 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[Counties by % of adults aged 25-54 who are married](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
 
+**[Categorical version of county-level map](share_maps/county_level_marriage_categories.html)**
+
 **[Experimental 3D variant of this county-level map in which county heights reflect the number of adults aged 25-54 in that area](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married_3D.html)**
 
 **[Counties with at least 100K residents by % of adults aged 25-54 who are married](share_maps/Estimates_larger_counties_percentile_tiled_unfixed_pct_25_54_married.html)**
