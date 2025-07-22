@@ -14,6 +14,18 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[Zip codes by % of adults aged 25-54 who are married](share_maps/zip_level_marriage_categories.html)**
 
+### 3D maps
+
+**[(California only) Census tracts by % of adults aged 25-54 who are married](share_maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
+
+**[(California only) Zip codes by % of adults aged 25-54 who are married](share_maps/Estimates_zips_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
+
+**[Counties by % of adults aged 25-54 who are married](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
+
+**[MSAs by % of adults aged 25-54 who are married](share_maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
+
+
+
 ### Gradient maps
 
 **[States by % of adults aged 25-54 who are married](share_maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
@@ -66,8 +78,6 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 **[Zip code-level marriage deserts ](desert_maps/Estimates_zip_codes_linear_tiled_unfixed_25_54_marriage_deserts.html)**
 
 **[Census tract-level marriage deserts](desert_maps/Estimates_tracts_linear_tiled_unfixed_25_54_marriage_deserts.html)**
-
-
 
 
 ### Author:
