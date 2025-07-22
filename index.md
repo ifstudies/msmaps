@@ -24,8 +24,6 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[MSAs by % of adults aged 25-54 who are married](share_maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
 
-
-
 ### Gradient maps
 
 **[States by % of adults aged 25-54 who are married](share_maps/Estimates_states_percentile_tiled_unfixed_pct_25_54_married.html)**
@@ -65,19 +63,19 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 *Note: some maps are empty, as none of the regions they would show met our 'marriage desert' threshold.)*
 
-**[State-level marriage deserts](desert_maps/Estimates_states_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[State-level marriage deserts](desert_maps/Estimates_states_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[MSA-level marriage deserts](desert_maps/Estimates_msas_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[MSA-level marriage deserts](desert_maps/Estimates_msas_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[PUMA-level marriage deserts](desert_maps/Estimates_pumas_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[PUMA-level marriage deserts](desert_maps/Estimates_pumas_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[County-level marriage deserts](desert_maps/Estimates_counties_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[County-level marriage deserts](desert_maps/Estimates_counties_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Marriage deserts among counties with at least 100K residents](desert_maps/Estimates_larger_counties_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[Marriage deserts among counties with at least 100K residents](desert_maps/Estimates_larger_counties_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Zip code-level marriage deserts ](desert_maps/Estimates_zip_codes_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[Zip code-level marriage deserts ](desert_maps/Estimates_zip_codes_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
-**[Census tract-level marriage deserts](desert_maps/Estimates_tracts_linear_tiled_unfixed_25_54_marriage_deserts.html)**
+**[Census tract-level marriage deserts](desert_maps/Estimates_tracts_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
 
 ### Author:
