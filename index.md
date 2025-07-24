@@ -117,6 +117,8 @@ These maps show the percentage of household children under 18 who are being rais
 
 **[PUMAs by % of children being raised by married parents](share_maps/Estimates_pumas_percentile_tiled_unfixed_pct_intact.html)**
 
+**[MSAs by % of children being raised by married parents](share_maps/Estimates_msas_percentile_tiled_unfixed_pct_intact.html)**
+
 **[States by % of children being raised by married parents](share_maps/Estimates_states_percentile_tiled_unfixed_pct_intact.html)**
 
 
