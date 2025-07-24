@@ -6,7 +6,7 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 ## Marriage share maps and tables
 
-### Categorical maps
+### 2D categorical maps
 
 **[Census tracts by % of adults aged 25-54 who are married](share_maps/tract_level_marriage_categories.html)**
 
@@ -17,9 +17,9 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 **[PUMAs by % of adults aged 25-54 who are married](share_maps/puma_level_marriage_categories.html)**
 
 
-### 3D maps
+### 3D categorical maps
 
-***Note: within these 3D maps, the volume of regions (i.e. their area times their height) reflects the number of residents within that region.***
+***Note: within these 3D maps, the volume of each region reflects the number of residents aged 25-54 within that region.***
 
 **[(California only) Census tracts by % of adults aged 25-54 who are married](share_maps/Estimates_tracts_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
 
