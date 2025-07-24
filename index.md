@@ -16,6 +16,11 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[PUMAs by % of adults aged 25-54 who are married](share_maps/puma_level_marriage_categories.html)**
 
+### Cartogram 
+
+***Note: in this map, PUMA sizes reflect the number of residents aged 25-54 that they contain.***
+
+**[PUMAs by % of adults aged 25-54 who are married](share_maps/fig_c_puma.html)**
 
 ### 3D categorical maps
 
