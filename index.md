@@ -12,9 +12,9 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[Zip codes by % of adults aged 25-54 who are married](share_maps/zip_level_marriage_categories.html)**
 
-**[PUMAs by % of adults aged 25-54 who are married](share_maps/puma_level_marriage_categories.html)**
-
 **[Counties by % of adults aged 25-54 who are married](share_maps/county_level_marriage_categories.html)**
+
+**[PUMAs by % of adults aged 25-54 who are married](share_maps/puma_level_marriage_categories.html)**
 
 
 ### 3D maps
@@ -26,6 +26,8 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 **[(California only) Zip codes by % of adults aged 25-54 who are married](share_maps/Estimates_zips_percentile_tiled_unfixed_pct_25_54_married_ca_only_pydeck_3d.html)**
 
 **[Counties by % of adults aged 25-54 who are married](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
+
+**[PUMAs by % of adults aged 25-54 who are married](share_maps/Estimates_pumas_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
 
 **[MSAs by % of adults aged 25-54 who are married](share_maps/Estimates_msas_percentile_tiled_unfixed_pct_25_54_married_pydeck_3d.html)**
 
