@@ -4,6 +4,8 @@ These maps and tables show the percentage of adults aged 25-54 who are married. 
 
 These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA region outlines were retrieved from IPUMS; other outlines came from the Census Bureau. Only regions with at least 500 adults aged 25-54 are included.
 
+*Note: currently, percentiles within categorical maps and 3D maps are based on all regions with a sample size of one or greater. Meanwhile, percentiles within gradient maps are based on regions with a sample size of 500 or greater.*
+
 ## Marriage share maps and tables
 
 ### 2D categorical maps
@@ -86,6 +88,40 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 **[Zip code-level marriage deserts ](desert_maps/Estimates_zip_codes_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
 
 **[Census tract-level marriage deserts](desert_maps/Estimates_tracts_percentile_tiled_unfixed_25_54_marriage_deserts.html)**
+
+
+# Intact Family Visualizations
+
+These maps show the percentage of household children under 18 who are being raised by married parents.
+
+## Categorical maps
+
+**[Tracts by % of children being raised by married parents](share_maps/tract_level_intact_categories.html)**
+
+**[Zip codes by % of children being raised by married parents](share_maps/zip_level_intact_categories.html)**
+
+**[Counties by % of children being raised by married parents](share_maps/county_level_intact_categories.html)**
+
+**[PUMAs by % of children being raised by married parents](share_maps/puma_level_intact_categories.html)**
+
+## Gradient maps
+
+**[Tracts by % of children being raised by married parents](share_maps/Estimates_tracts_percentile_tiled_unfixed_pct_intact.html)**
+
+**[Zip codes by % of children being raised by married parents](share_maps/Estimates_zips_percentile_tiled_unfixed_pct_intact.html)**
+
+**[Counties by % of children being raised by married parents](share_maps/Estimates_counties_percentile_tiled_unfixed_pct_intact.html)**
+
+
+**[Counties with at least 100,000 residents by % of children being raised by married parents](share_maps/Estimates_larger_counties_percentile_tiled_unfixed_pct_intact.html)**
+
+**[PUMAs by % of children being raised by married parents](share_maps/Estimates_pumas_percentile_tiled_unfixed_pct_intact.html)**
+
+**[States by % of children being raised by married parents](share_maps/Estimates_states_percentile_tiled_unfixed_pct_intact.html)**
+
+
+
+
 
 
 ### Author:
