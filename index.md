@@ -10,9 +10,12 @@ These analyses are based on ACS5 2023 data from the US Census Bureau. PUMA regio
 
 **[Census tracts by % of adults aged 25-54 who are married](share_maps/tract_level_marriage_categories.html)**
 
+**[Zip codes by % of adults aged 25-54 who are married](share_maps/zip_level_marriage_categories.html)**
+
+**[PUMAs by % of adults aged 25-54 who are married](share_maps/puma_level_marriage_categories.html)**
+
 **[Counties by % of adults aged 25-54 who are married](share_maps/county_level_marriage_categories.html)**
 
-**[Zip codes by % of adults aged 25-54 who are married](share_maps/zip_level_marriage_categories.html)**
 
 ### 3D maps
 
